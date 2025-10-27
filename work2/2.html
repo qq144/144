@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>李泉翰的自我介紹</title>
+<style>
+  /* === 全域設定 === */
+  body {
+    font-family: "Microsoft JhengHei", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fffaf3;
+  }
+
+  /* 頂部橫條 */
+  header {
+    background-color: #f9c81e;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header h1 {
+    color: #1e1e1e;
+    font-size: 36px;
+    margin: 0;
+    letter-spacing: 3px;
+  }
+
+  /* 主體排版 */
+  .container {
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 150px);
+  }
+
+  /* 左側 */
+  .left {
+    width: 40%;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border-right: 3px solid #f9c81e;
+  }
+
+  .left img {
+    width: 65%;
+    border-radius: 15px;
+    margin-bottom: 40px;
+  }
+
+  .left h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #1e1e1e;
+  }
+
+  .left p {
+    font-size: 18px;
+    margin: 8px 0;
+    line-height: 1.8;
+  }
+
+  /* 右側 */
+.right {
+  position: relative; 
+  width: 70%;
+  background-color: #ffffff; 
+  padding: 50px;
+  color: #333;
+}
+
+/* 加一個小圖片在右下角 */
+.right img.corner-img {
+  position: absolute;
+  bottom: 30px;   
+  right: 30px;    
+  width: 180px;   
+  border-radius: 20px; 
+  
+}
+
+
+  .right h2 {
+    color: #1e1e1e;
+    border-left: 8px solid #f9c81e;
+    padding-left: 20px;
+    margin-top: 25px;
+    font-size: 24px;
+  }
+
+  .right p {
+    font-size: 18px;
+    margin: 8px 0;
+    line-height: 1.8;
+  }
+
+  .highlight {
+    color: #f9c81e;
+    font-weight: bold;
+  }
+
+</style>
+</head>
+
+<body>
+  <!-- 頂部橫條 -->
+  <header>
+    <h1>個人自我介紹</h1>
+  </header>
+
+  <!-- 主體 -->
+  <div class="container">
+    <!-- 左邊：照片區 -->
+    <div class="left">
+      <h2>個人照片</h2>
+      <img src="a1.jpeg" alt="個人照片">
+    </div>
+
+    <!-- 右邊：內容區 -->
+    <div class="right">
+      <h2>個人資料</h2>
+      <p><span class="highlight">姓名：</span>李泉翰</p>
+      <p><span class="highlight">簡歷：</span>我來自花蓮，從小樂觀開朗，對理科有比較大的興趣，平常喜歡打球、看電影還有玩電腦遊戲。</p>
+      <p><span class="highlight">學歷：</span>國立台東大學應用數學系畢業</p>
+      <p><span class="highlight">經歷：</span>從花蓮高中畢業至今。</p>
+      <p><span class="highlight">專業能力：</span>無。</p>
+      <p><span class="highlight">參與專案 / 活動 / 作品：</span>忘了。</p>
+      <p><span class="highlight">榮譽 / 獎項：</span>微積分競試優良獎。</p>
+      <p><span class="highlight">聯絡方式：</span>11304144@gm.nttu.edu.tw</p>
+      <img src="11.jpg" class="corner-img" alt="logo">
+    </div>
+  </div>
+</body>
+</html>
